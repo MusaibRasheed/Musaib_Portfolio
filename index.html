@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | CS Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm a</span>
+            <h1 class="glitch" data-text="CS Engineer">MusaibRasheed</h1>
+            <p class="subtitle">Solving complex problems with code & algorithm.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">View Code</a>
+                <a href="#profiles" class="btn secondary-btn">My Profiles</a>
+            </div>
+        </div>
+        <!-- Removed abstract shape for cleaner background image focus -->
+    </header>
+
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image hidden tilt-card">
+                    <img src="images/Portflio.jpg" alt="profile picture">
+                </div>
+                <div class="about-text hidden">
+                    <p>I am a driven Computer Science Undergraduate passionate about <strong>Full Stack
+                            Development</strong> and <strong>AI/ML</strong>. With the tech landscape shifting towards
+                        Artificial Intelligence, I am committed to mastering emerging technologies and staying at the
+                        forefront of innovation.</p>
+                    <p>I thrive on <strong>problem-solving</strong> and building valuable software. My goal is to apply
+                        my strong technical skills to create meaningful solutions that solve real-world challenges and
+                        drive professional growth in my career.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profiles" class="section">
+        <div class="container">
+            <h2 class="section-title">Coding Profiles</h2>
+            <div class="skills-grid">
+                <a href="https://leetcode.com/u/MusaibRasheed/" target="_blank" class="skill-card hidden tilt-card">
+                    <i class="fas fa-code"></i>
+                    <h3>LeetCode</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </a>
+                <a href="https://github.com/MusaibRasheed" target="_blank" class="skill-card hidden tilt-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/musaib-rashid-bhat-492965296/" target="_blank"
+                    class="skill-card hidden tilt-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 100%"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-card hidden tilt-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Languages</h3>
+                    <p style="color:var(--text-secondary);">C, C++, Python, JavaScript</p>
+                </div>
+                <div class="skill-card hidden tilt-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Core CS</h3>
+                    <p style="color:var(--text-secondary);">DSA, OOPs, DBMS, OS, CN </p>
+                </div>
+                <div class="skill-card hidden tilt-card">
+                    <i class="fab fa-react"></i>
+                    <h3>Dev Frameworks</h3>
+                    <p style="color:var(--text-secondary);">React.js</p>
+                </div>
+                <div class="skill-card hidden tilt-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p style="color:var(--text-secondary);"> MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card hidden tilt-card">
+                    <div class="project-image">
+                        <img src="images/personal.jpg"
+                            alt="Coding">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A fully responsive, animated portfolio website.</p>
+                        <div class="formatted-tags">
+                            <span>HTML/CSS</span><span>JavaScript</span>
+                        </div>
+                        <a href="#" class="link-btn">You are here <i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card hidden tilt-card">
+                    <div class="project-image">
+                        <img src="images/profile.jpg"
+                            alt="Software">
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p> working on it</p>
+                        <div class="formatted-tags">
+                            <span>Loading...</span>
+                        </div>
+                        <span class="link-btn" style="cursor:default;">In progress...</span>
+                    </div>
+                </div>
+                <div class="project-card hidden tilt-card" style="opacity: 0.7;">
+                    <div class="project-image">
+                        <img src="images/image.jpg"
+                            alt="AI">
+                    </div>
+                    <div class="project-info">
+                        <h3>Coming Soon</h3>
+                        <p>Currently building something exciting related to AI & Web.</p>
+                        <div class="formatted-tags">
+                            <span>Loading...</span>
+                        </div>
+                        <span class="link-btn" style="cursor: default;">In Progress...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper hidden">
+                <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Replace with your actual Access Key from web3forms.com -->
+                    <input type="hidden" name="access_key" value="17e1061a-cca5-46d3-ae6e-d740cac56765">
+
+                    <div class="input-group">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message <i
+                            class="fas fa-paper-plane"></i></button>
+                    <p id="form-message" style="margin-top: 1rem; color: var(--accent); display: none;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
